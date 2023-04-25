@@ -21,7 +21,7 @@ input[type="radio"] {
 .radio-container label {
     display: flex;
     align-items: center;
-    column-gap: 20px;
+    column-gap: 5px;
 }
 
 .custom-radio {
@@ -53,4 +53,8 @@ input[type="radio"]:checked + .custom-radio {
 
 input[type="radio"]:checked + .custom-radio span {
     background: #7f1d1d;
+}
+
+#multistep-form .step:not(.step-1) {
+    display: none;
 }

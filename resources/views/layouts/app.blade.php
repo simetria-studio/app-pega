@@ -59,7 +59,7 @@
                     </svg>
                 </button>
                 <input type="text" id="simple-search"
-                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-red-500 focus:border-red-500 focus:outline-none block w-full pr-10 p-1 "
+                    class="w-full py-1 pr-10 pl- text-gray-700 bg-gray-200 rounded-lg focus:outline-none focus:bg-white focus:shadow"
                     placeholder="Busca">
             </div>
         </form>
@@ -85,6 +85,9 @@
     <main>
         @yield('content')
     </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    @yield('js')
 </body>
 
 </html>
